@@ -2,10 +2,10 @@
 
 ## Data Description 
 
-Will be added soon!
+To be added soon!
 
-## Data Download Link
-[https://137.132.145.252:5001/fbsharing/NuUWWDHX](https://137.132.145.252:5001/fbsharing/NuUWWDHX)
+## Data Download
+[Link](https://137.132.145.252:5001/fbsharing/NuUWWDHX) (13.2GB)
 
 ## Contact 
 - Chen Xiang: [chxiang@comp.nus.edu.sg](mailto:chxiang@comp.nus.edu.sg)
