@@ -1,8 +1,10 @@
 # Multi-Slot RTB Multimedia Datasets 
 
-## Data Description Will be Added Soon!
+## Data Description 
 
-## Datasets Download Link
+Will be added soon!
+
+## Data Download Link
 [https://137.132.145.252:5001/fbsharing/NuUWWDHX](https://137.132.145.252:5001/fbsharing/NuUWWDHX)
 
 ## Contact 
