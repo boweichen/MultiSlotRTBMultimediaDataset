@@ -97,8 +97,6 @@ Compared with crawler type II, we did not have to add new webpages URLs in step 
 Note that: 
 1)	When capture the webpage image, we snapshot the full webpage rather than partial of the webpage. 
 
-To be added soon!
-
 ## Data Download
 [Link](https://137.132.145.252:5001/fbsharing/NuUWWDHX) (13.2GB)
 
