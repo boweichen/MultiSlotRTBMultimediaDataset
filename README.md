@@ -6,7 +6,7 @@ This data description contains two parts:
 * Overview of the dataset
 * Design of data crawler
 
-**Overview:**
+**Overview**
 
 This dataset aims to investigate the trade-off among stakeholders in Real-Time bidding. We have collected data from Yahoo and MSN over the period from 20 January to 30 January in 2017 to construct our multimedia datasets. All the multimedia datasets were collected in Singapore. For each platform, we designed two types of data crawlers：Crawler type (I) started from a given seed URL, and used breadth-first-search to collect as many different webpages as possible; Crawler type (II) repeatedly accessed to a set of particular webpages at a frequency of every 5 minutes. To ensure the diversity of our collected webpage and ad, we specified the webpage URLs as following:
 
@@ -82,7 +82,7 @@ We implement the crawler with Python2.7, Selenium and Chromedriver, and the sour
 
 To help you better understand our code, I will explain three important variables: collecting_webpage_urls: store the webpage URL candidates that is under collecting; to_be_colleccted_webpage_urls: store the new webpage URL candidates; collected_webapge_urls: store all the collect webpage URLs. 
 
-**We design our crawler as follows:** 
+**We design our crawler as follows** 
 
 Crawler type I:
 
