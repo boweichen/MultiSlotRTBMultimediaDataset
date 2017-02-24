@@ -92,6 +92,7 @@ Step4: For each detected ad, we collect the ad_image by cropping screen, and the
 Step5: we return to the original webpage, and collect the visual and textual information of the webpage, and save it to ./webpage_image/ and ./webpage.json.   
 
 Crawler type II:
+
 Compared with crawler type II, we did not have to add new webpages URLs in step 2 and step 3. We just repetitively access to the specified webpage sets. 
 
 Note that: 
