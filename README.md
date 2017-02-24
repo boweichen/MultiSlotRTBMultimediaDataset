@@ -85,9 +85,12 @@ We design our crawler as follows:
 
 Crawler type I:
 
-Step1: initialize some variables, such as starting chromedriver, setting collecting_webpage_urls as seed_url setting to_be_colleccted_webpage_urls as empty,  setting collected_webapge_urls as empty. Step2: for a webpage URL in colleccting_webpage_urls, in order to remove repetitive webpages , we first check whether it is in collected_webpage_urls. If yes, select the next webpage URL candidate. If not, go to step 3. Once we have traversed colleccting_webpage_urls, we will set it as to_be_collected_webpage_urls and set to_be_colleccted_webpage_urls as empty. 
+Step1: initialize some variables, such as starting chromedriver, setting collecting_webpage_urls as seed_url setting to_be_colleccted_webpage_urls as empty,  setting collected_webapge_urls as empty.
+
+Step2: for a webpage URL in colleccting_webpage_urls, in order to remove repetitive webpages , we first check whether it is in collected_webpage_urls. If yes, select the next webpage URL candidate. If not, go to step 3. Once we have traversed colleccting_webpage_urls, we will set it as to_be_collected_webpage_urls and set to_be_colleccted_webpage_urls as empty. 
 
 Step3: for a new webpage URL, we first add it to collected_webapge_urls. And then we select all new URLs that belong to Yahoo/MSN within the webpage and add them to  to_be_colleccted_webpage_urls. If there exist an ad in the webpage, go to Step 4. If not, go to step 2.
+
 Step4: For each detected ad, we collect the ad_image by cropping screen, and then we perform ‘clicking-ad’ action and transfer to the ad landing page. We collect textual information of the ads in the ad landing page, and save them in ./ad.json. Then, go to Step5.
 Step5: we return to the original webpage, and collect the visual and textual information of the webpage, and save it to ./webpage_image/ and ./webpage.json.   
 
