@@ -82,7 +82,8 @@ We implement the crawler with Python2.7, Selenium and Chromedriver, and the sour
 
 To help you better understand our code, I will explain three important variables: collecting_webpage_urls: store the webpage URL candidates that is under collecting; to_be_colleccted_webpage_urls: store the new webpage URL candidates; collected_webapge_urls: store all the collect webpage URLs. 
 
-**We design our crawler as follows** 
+***
+**We design our crawler as follows (see data_crawler folder)** 
 
 Crawler type I (msn_crawler_I.py and yahoo_crawler_I.py):
 
