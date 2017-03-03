@@ -84,7 +84,7 @@ To help you better understand our code, I will explain three important variables
 
 **We design our crawler as follows** 
 
-Crawler type I:
+Crawler type I (msn_crawler_I.py and yahoo_crawler_I.py):
 
 - Step1: initialize some variables, such as starting chromedriver, setting collecting_webpage_urls as seed_url setting to_be_colleccted_webpage_urls as empty,  setting collected_webapge_urls as empty.
 
@@ -96,7 +96,7 @@ Crawler type I:
 
 - Step5: we return to the original webpage, and collect the visual and textual information of the webpage, and save it to ./webpage_image/ and ./webpage.json.   
 
-Crawler type II:
+Crawler type II (msn_crawler_II.py and yahoo_crawler_II.py):
 
 Compared with crawler type II, we did not have to add new webpages URLs in step 2 and step 3. We just repetitively access to the specified webpage sets. 
 
