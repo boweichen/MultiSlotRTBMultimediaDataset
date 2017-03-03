@@ -101,10 +101,9 @@ Crawler type I (msn_crawler_I.py and yahoo_crawler_I.py):
 
 Crawler type II (msn_crawler_II.py and yahoo_crawler_II.py):
 
-Compared with crawler type II, we did not have to add new webpages URLs in step 2 and step 3. We just repetitively access to the specified webpage sets. 
+Compared with crawler type I, we did not have to add new webpages URLs in step 2 and step 3. We just repetitively access to the specified webpage sets. 
 
-Note that: 
-1)	When capture the webpage image, we snapshot the full webpage rather than partial of the webpage. 
+Note that when capture the webpage image, we snapshot the full webpage rather than partial of the webpage. 
 
 ## Data Download
 [Link](https://137.132.145.252:5001/fbsharing/NuUWWDHX) (13.2GB)
