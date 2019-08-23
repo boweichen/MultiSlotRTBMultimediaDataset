@@ -110,7 +110,7 @@ Note that when capture the webpage image, we snapshot the full webpage rather th
 
 ## Contact 
 - Xiang Chen: [chxiang@comp.nus.edu.sg](mailto:chxiang@comp.nus.edu.sg)
-- Bowei Chen: [bchen@lincoln.ac.uk](mailto:bchen@lincoln.ac.uk) 
+- Bowei Chen: [Bowei.Chen@glasgow.ac.uk](mailto:Bowei.Chen@glasgow.ac.uk) 
 
 
 
